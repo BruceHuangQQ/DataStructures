@@ -27,10 +27,11 @@ void printIntArray(int aArray[], size_t aSize)
 	std::cout << "[";
 	//if this is the first element
 	//print first
-	//n-1
+	//1
 	if (aSize > 0)
 	{
 		std::cout << aArray[0];
+		//n-1 + 1
 		for (int i = 1; i < aSize; i++)
 		{
 			std::cout << ",";
